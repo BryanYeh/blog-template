@@ -64,7 +64,8 @@
                     Written by
                     <a href="#">Josh Darkman</a>
                     <i class="fa fa-calendar" aria-hidden="true"></i> 4/22/2000
-                    <i class="fa fa-comment-o" aria-hidden="true"></i> <a href="#comments">6 comments</a>
+                    <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    <a href="#comments">6 comments</a>
                 </p>
             </div>
         </div>
@@ -114,15 +115,46 @@
     </div>
 
     <div id="comments" class="comments">
-            <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <hr>
-                            <h2>Comments <span class="badge badge-primary">4</span></h2>
-                        </div>
-                    </div>
+
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="commentForm">Leave a Comment</label>
+                    <textarea class="form-control" id="commentForm" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="row">
+                <div class="col">
+                    <hr>
+                    <h2>Comments
+                        <span class="badge badge-primary">4</span>
+                    </h2>
+                </div>
             </div>
-        
+            <div class="card comment">
+                <div class="card-header">
+                    <img src="https://placeimg.com/100/100/tech/5" alt="" class="img-fluid rounded-circle">
+                    <p class="commenter-name">Stupid Dork</p>
+                    <p class="commenter-status">Reader - Joined 11/10/2017</p>
+                    <p class="commenter-date">Posted on 11/23/2017</p>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+            <div class="card comment">
+                <div class="card-header">
+                    <img src="https://placeimg.com/100/100/tech/5" alt="" class="img-fluid rounded-circle">
+                    <p class="commenter-name">Stupid Dork</p>
+                    <p class="commenter-status">Reader - Joined 11/10/2017</p>
+                    <p class="commenter-date">Posted on 11/23/2017</p>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 
